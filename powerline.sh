@@ -1,6 +1,6 @@
 #!/bin/bash
 # supa minimal powerline installation for zsh, works only for dnf package manager
-sudo dnf install -y zsh powerline-fonts
+sudo pacman -S zsh powerline-fonts zsh-theme-powerlevel9k -y
 sudo chsh -s $(which zsh) $USER
 
 # installing Oh-My-Zsh
