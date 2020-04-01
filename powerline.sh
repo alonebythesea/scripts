@@ -4,14 +4,13 @@ sudo pacman -S zsh powerline-fonts zsh-theme-powerlevel9k -y
 sudo chsh -s $(which zsh) $USER
 
 # installing Oh-My-Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
 
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-git clone https://github.com/shinzxc/dots
+git clone https://github.com/shinzxc/dots 
 
-cp dots/.zshrc  ~/.zshrc
+cp dots/.zshrc  ~/.zshrc 
 
-echo "cleaning shit"
-rm -rf dots/
+rm -rf dots/ && echo "cleaning shit"
 
 echo "powerline installed"
