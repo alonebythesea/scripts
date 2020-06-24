@@ -1,2 +1,2 @@
 # scripts
-my simple scripts
+my 🗑️ scripts
